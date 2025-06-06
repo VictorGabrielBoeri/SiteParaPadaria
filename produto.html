@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto - Padaria Delícias do Forno</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/produto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Container -->
+    <div id="header-container"></div>
+
+    <!-- Main Content Wrapper -->
+    <main class="main-content">
+        <!-- Product Detail Section -->
+        <section class="product-detail">
+            <div class="container">
+                <div class="back-button">
+                    <a href="cardapio.html" class="btn-back">
+                        <i class="fas fa-arrow-left"></i> Voltar ao Cardápio
+                    </a>
+                </div>
+                
+                <!-- Resto do conteúdo do produto permanece igual -->
+                <div class="product-content">
+                    <div class="product-image">
+                        <img id="product-img" src="" alt="">
+                    </div>
+                    
+                    <div class="product-info">
+                        <h1 id="product-name"></h1>
+                        <div class="product-price-weight">
+                            <span id="product-price" class="price-large"></span>
+                            <span id="product-weight" class="weight-large"></span>
+                        </div>
+                        
+                        <div class="product-description">
+                            <h3>Descrição</h3>
+                            <p id="product-description"></p>
+                        </div>
+                        
+                        <div class="product-features">
+                            <h3>Características</h3>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Ingredientes frescos e selecionados</li>
+                                <li><i class="fas fa-check"></i> Produção artesanal diária</li>
+                                <li><i class="fas fa-check"></i> Sem conservantes artificiais</li>
+                                <li><i class="fas fa-check"></i> Receita tradicional</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="product-actions">
+                            <a href="https://wa.me/5511999999999?text=Olá! Gostaria de encomendar: " id="whatsapp-order" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Encomendar via WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Container -->
+    <div id="footer-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

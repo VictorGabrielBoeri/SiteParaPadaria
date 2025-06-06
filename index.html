@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padaria Delícias do Forno</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Container -->
+    <div id="header-container"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Bem-vindos à Padaria Delícias do Forno</h1>
+            <p>Produtos frescos e artesanais todos os dias</p>
+            <div class="hero-buttons">
+                <a href="cardapio.html" class="btn btn-primary">Ver Cardápio</a>
+                <a href="https://wa.me/5511999999999?text=Olá! Gostaria de fazer um pedido" class="btn btn-whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Um pouquinho sobre nós...</h2>
+                    <p>A Padaria Delícias do Forno nasceu com o propósito de trazer o melhor da panificação artesanal para sua mesa. Utilizamos ingredientes frescos e de qualidade, seguindo receitas tradicionais que passam de geração em geração.</p>
+                    <p>Nosso compromisso é oferecer produtos frescos diariamente, desde pães quentinhos pela manhã até doces irresistíveis para adoçar seu dia. Valorizamos o atendimento personalizado e a satisfação de nossos clientes.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Padaria">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Nosso Cardápio</h2>
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="paes">Pães</button>
+                <button class="category-btn" data-category="doces">Doces</button>
+                <button class="category-btn" data-category="salgados">Salgados</button>
+                <button class="category-btn" data-category="bebidas">Bebidas</button>
+            </div>
+            
+            <div class="menu-items">
+                <!-- Pães -->
+                <div class="menu-category paes active">
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Pão Francês">
+                        <div class="item-info">
+                            <h3>Pão Francês</h3>
+                            <p>Pão tradicional, crocante por fora e macio por dentro</p>
+                            <span class="price">R$ 0,80</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1586444248902-2f64eddc13df?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Pão Integral">
+                        <div class="item-info">
+                            <h3>Pão Integral</h3>
+                            <p>Pão saudável com grãos e fibras</p>
+                            <span class="price">R$ 1,20</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Pão de Açúcar">
+                        <div class="item-info">
+                            <h3>Pão de Açúcar</h3>
+                            <p>Pão doce tradicional, perfeito para o café da manhã</p>
+                            <span class="price">R$ 2,50</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doces -->
+                <div class="menu-category doces">
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Brigadeiro">
+                        <div class="item-info">
+                            <h3>Brigadeiro Gourmet</h3>
+                            <p>Brigadeiro artesanal com chocolate belga</p>
+                            <span class="price">R$ 3,50</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Torta">
+                        <div class="item-info">
+                            <h3>Torta de Morango</h3>
+                            <p>Torta cremosa com morangos frescos</p>
+                            <span class="price">R$ 4,50</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Croissant">
+                        <div class="item-info">
+                            <h3>Croissant de Chocolate</h3>
+                            <p>Massa folhada com recheio de chocolate</p>
+                            <span class="price">R$ 5,00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Salgados -->
+                <div class="menu-category salgados">
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Coxinha">
+                        <div class="item-info">
+                            <h3>Coxinha de Frango</h3>
+                            <p>Coxinha tradicional com frango desfiado</p>
+                            <span class="price">R$ 4,00</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Pão de Queijo">
+                        <div class="item-info">
+                            <h3>Pão de Queijo</h3>
+                            <p>Pão de queijo mineiro tradicional</p>
+                            <span class="price">R$ 2,50</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1619740455993-9e4e0e5e8e8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Empada">
+                        <div class="item-info">
+                            <h3>Empada de Palmito</h3>
+                            <p>Empada artesanal com recheio de palmito</p>
+                            <span class="price">R$ 3,50</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bebidas -->
+                <div class="menu-category bebidas">
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Café">
+                        <div class="item-info">
+                            <h3>Café Expresso</h3>
+                            <p>Café especial, torrado na hora</p>
+                            <span class="price">R$ 3,00</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Suco">
+                        <div class="item-info">
+                            <h3>Suco Natural</h3>
+                            <p>Suco de frutas frescas da estação</p>
+                            <span class="price">R$ 5,00</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Cappuccino">
+                        <div class="item-info">
+                            <h3>Cappuccino</h3>
+                            <p>Cappuccino cremoso com canela</p>
+                            <span class="price">R$ 4,50</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Fale Conosco</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefone</h3>
+                            <p>(11) 99999-9999</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>contato@deliciasdoforno.com.br</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Endereço</h3>
+                            <p>Rua das Flores, 123<br>Centro - São Paulo/SP</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Horário de Funcionamento</h3>
+                            <p>Segunda à Sexta: 6h às 20h<br>
+                            Sábado: 6h às 18h<br>
+                            Domingo: 7h às 15h</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1975!2d-46.6333824!3d-23.5505199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzAxLjkiUyA0NsKwMzgnMDAuMiJX!5e0!3m2!1spt-BR!2sbr!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Container -->
+    <div id="footer-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

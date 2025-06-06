@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio - Padaria Delícias do Forno</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/cardapio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Container -->
+    <div id="header-container"></div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Nosso Cardápio</h1>
+            <p>Produtos frescos e artesanais preparados diariamente</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-page">
+        <div class="container">
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="paes">Pães</button>
+                <button class="category-btn" data-category="doces">Doces</button>
+                <button class="category-btn" data-category="salgados">Salgados</button>
+                <button class="category-btn" data-category="bebidas">Bebidas</button>
+            </div>
+            
+            <!-- Resto do conteúdo do cardápio permanece igual -->
+            <div class="menu-items">
+                <!-- Pães -->
+                <div class="menu-category paes active">
+                    <div class="category-title">
+                        <h2><i class="fas fa-bread-slice"></i> Pães Frescos</h2>
+                        <p>Assados diariamente com ingredientes selecionados</p>
+                    </div>
+                    <div class="items-grid">
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Pão Francês">
+                            <div class="item-info">
+                                <h3>Pão Francês</h3>
+                                <p>Pão tradicional, crocante por fora e macio por dentro. Perfeito para o café da manhã.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 0,80</span>
+                                    <span class="weight">50g</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1586444248902-2f64eddc13df?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Pão Integral">
+                            <div class="item-info">
+                                <h3>Pão Integral</h3>
+                                <p>Pão saudável com grãos e fibras, rico em nutrientes e sabor.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 1,20</span>
+                                    <span class="weight">60g</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Pão de Açúcar">
+                            <div class="item-info">
+                                <h3>Pão de Açúcar</h3>
+                                <p>Pão doce tradicional, macio e levemente adocicado.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 2,50</span>
+                                    <span class="weight">80g</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Pão de Forma">
+                            <div class="item-info">
+                                <h3>Pão de Forma Integral</h3>
+                                <p>Pão de forma integral, ideal para sanduíches saudáveis.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 6,50</span>
+                                    <span class="weight">500g</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1585478259715-876acc5be8eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Baguete">
+                            <div class="item-info">
+                                <h3>Baguete Francesa</h3>
+                                <p>Pão francês tradicional, crocante e aromático.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 4,00</span>
+                                    <span class="weight">200g</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1574085733277-851d9d856a3a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Pão de Centeio">
+                            <div class="item-info">
+                                <h3>Pão de Centeio</h3>
+                                <p>Pão escuro e nutritivo, com sabor marcante e textura única.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 3,50</span>
+                                    <span class="weight">100g</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doces -->
+                <div class="menu-category doces">
+                    <div class="category-title">
+                        <h2><i class="fas fa-birthday-cake"></i> Doces & Sobremesas</h2>
+                        <p>Delícias artesanais para adoçar seu dia</p>
+                    </div>
+                    <div class="items-grid">
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Brigadeiro">
+                            <div class="item-info">
+                                <h3>Brigadeiro Gourmet</h3>
+                                <p>Brigadeiro artesanal com chocolate belga premium.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 3,50</span>
+                                    <span class="weight">25g</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Torta">
+                            <div class="item-info">
+                                <h3>Torta de Morango</h3>
+                                <p>Torta cremosa com morangos frescos e chantilly.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 4,50</span>
+                                    <span class="weight">120g</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Croissant">
+                            <div class="item-info">
+                                <h3>Croissant de Chocolate</h3>
+                                <p>Massa folhada francesa com recheio de chocolate.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 5,00</span>
+                                    <span class="weight">90g</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1571115764595-644a1f56a55c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Pudim">
+                            <div class="item-info">
+                                <h3>Pudim de Leite</h3>
+                                <p>Pudim cremoso tradicional com calda de caramelo.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 6,00</span>
+                                    <span class="weight">150g</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Brownie">
+                            <div class="item-info">
+                                <h3>Brownie de Chocolate</h3>
+                                <p>Brownie úmido com pedaços de chocolate e nozes.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 4,00</span>
+                                    <span class="weight">80g</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Cheesecake">
+                            <div class="item-info">
+                                <h3>Cheesecake de Frutas Vermelhas</h3>
+                                <p>Cheesecake cremoso com cobertura de frutas vermelhas.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 7,50</span>
+                                    <span class="weight">130g</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Salgados -->
+                <div class="menu-category salgados">
+                    <div class="category-title">
+                        <h2><i class="fas fa-hamburger"></i> Salgados</h2>
+                        <p>Opções saborosas para qualquer hora do dia</p>
+                    </div>
+                    <div class="items-grid">
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Coxinha">
+                            <div class="item-info">
+                                <h3>Coxinha de Frango</h3>
+                                <p>Coxinha tradicional com frango desfiado temperado.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 4,00</span>
+                                    <span class="weight">100g</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Pão de Queijo">
+                            <div class="item-info">
+                                <h3>Pão de Queijo</h3>
+                                <p>Pão de queijo mineiro tradicional, quentinho e saboroso.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 2,50</span>
+                                    <span class="weight">50g</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1619740455993-9e4e0e5e8e8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Empada">
+                            <div class="item-info">
+                                <h3>Empada de Palmito</h3>
+                                <p>Empada artesanal com recheio cremoso de palmito.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 3,50</span>
+                                    <span class="weight">80g</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Pastel">
+                            <div class="item-info">
+                                <h3>Pastel de Queijo</h3>
+                                <p>Pastel crocante recheado com queijo derretido.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 3,00</span>
+                                    <span class="weight">70g</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Quiche">
+                            <div class="item-info">
+                                <h3>Quiche de Alho-poró</h3>
+                                <p>Quiche francesa com alho-poró e queijo gruyère.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 5,50</span>
+                                    <span class="weight">120g</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Sanduíche">
+                            <div class="item-info">
+                                <h3>Sanduíche Natural</h3>
+                                <p>Sanduíche integral com peito de peru, queijo e salada.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 8,00</span>
+                                    <span class="weight">200g</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bebidas -->
+                <div class="menu-category bebidas">
+                    <div class="category-title">
+                        <h2><i class="fas fa-coffee"></i> Bebidas</h2>
+                        <p>Bebidas quentes e geladas para acompanhar</p>
+                    </div>
+                    <div class="items-grid">
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Café">
+                            <div class="item-info">
+                                <h3>Café Expresso</h3>
+                                <p>Café especial, torrado na hora, encorpado e aromático.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 3,00</span>
+                                    <span class="weight">50ml</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Suco">
+                            <div class="item-info">
+                                <h3>Suco Natural</h3>
+                                <p>Suco de frutas frescas da estação, sem conservantes.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 5,00</span>
+                                    <span class="weight">300ml</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Cappuccino">
+                            <div class="item-info">
+                                <h3>Cappuccino</h3>
+                                <p>Cappuccino cremoso com leite vaporizado e canela.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 4,50</span>
+                                    <span class="weight">200ml</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Chá">
+                            <div class="item-info">
+                                <h3>Chá Gelado</h3>
+                                <p>Chá gelado refrescante com limão e hortelã.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 3,50</span>
+                                    <span class="weight">300ml</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Smoothie">
+                            <div class="item-info">
+                                <h3>Smoothie de Frutas</h3>
+                                <p>Smoothie cremoso com frutas tropicais e iogurte.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 6,50</span>
+                                    <span class="weight">400ml</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Chocolate Quente">
+                            <div class="item-info">
+                                <h3>Chocolate Quente</h3>
+                                <p>Chocolate quente cremoso com marshmallows.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 5,50</span>
+                                    <span class="weight">250ml</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Especiais -->
+                <div class="menu-category especiais">
+                    <div class="category-title">
+                        <h2><i class="fas fa-star"></i> Especiais da Casa</h2>
+                        <p>Criações exclusivas da nossa padaria</p>
+                    </div>
+                    <div class="items-grid">
+                        <div class="menu-item featured">
+                            <img src="https://images.unsplash.com/photo-1571115764595-644a1f56a55c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Combo Café">
+                            <div class="item-info">
+                                <h3>Combo Café da Manhã</h3>
+                                <p>Pão francês + café + suco de laranja + geleia caseira.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 12,00</span>
+                                    <span class="discount">Economize R$ 3,00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item featured">
+                            <img src="https://images.unsplash.com/photo-1586444248902-2f64eddc13df?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Kit Festa">
+                            <div class="item-info">
+                                <h3>Kit Festa (10 pessoas)</h3>
+                                <p>Salgados variados + docinhos + refrigerante 2L.</p>
+                                <div class="item-details">
+                                    <span class="price">R$ 85,00</span>
+                                    <span class="discount">Economize R$ 15,00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item featured">
+                            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Torta Personalizada">
+                            <div class="item-info">
+                                <h3>Torta Personalizada</h3>
+                                <p>Torta sob encomenda com sabor e decoração à sua escolha.</p>
+                                <div class="item-details">
+                                    <span class="price">A partir de R$ 45,00</span>
+                                    <span class="note">Pedido com 48h de antecedência</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Order Info -->
+            <div class="order-info">
+                <div class="info-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Horário de Funcionamento</h3>
+                    <p>Segunda a Sexta: 6h às 20h<br>
+                       Sábado: 6h às 18h<br>
+                       Domingo: 7h às 15h</p>
+                </div>
+                <div class="info-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>Faça seu Pedido</h3>
+                    <p>Entre em contato pelo WhatsApp para fazer seu pedido ou tirar dúvidas</p>
+                    <a href="https://wa.me/5511999999999?text=Olá! Gostaria de fazer um pedido do cardápio" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Fazer Pedido
+                    </a>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-truck"></i>
+                    <h3>Delivery</h3>
+                    <p>Entregamos em toda a região central<br>
+                       Taxa de entrega: R$ 5,00<br>
+                       Pedido mínimo: R$ 20,00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5511999999999?text=Olá! Gostaria de fazer um pedido" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer Container -->
+    <div id="footer-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
